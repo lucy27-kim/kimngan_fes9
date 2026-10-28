@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>画像の指定と表現｜学生用</title>
+    <link rel="stylesheet" href="./style.css">
+
+      <link rel="icon" type="image/png" href="./favicon.png">
+</head>
+    
+  <body id="top">
+  <!-- ヘッダーとナビゲーション / Header and navigation -->
+  <header class="main-header">
+    <div class="header-inner">
+        <a href="#top" class="header-logo" aria-label="ページ上部へ戻る">
+            <span>KIM NGAN</span>Portfolio
+        </a>
+
+        <!-- スマホのメニューボタン / Menu button for mobile -->
+        <button class="nav-toggle" type="button" aria-controls="global-nav" aria-expanded="false" aria-label="メニューを開く">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        
+        <nav class="header-nav" id="global-nav" aria-label="メインナビゲーション">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#features" class="nav-link">私の強み</a></li>
+                <li class="nav-item"><a href="#specifications" class="nav-link">学習スキル</a></li>
+                <li class="nav-item"><a href="#faq" class="nav-link">私について</a></li>
+                <li class="nav-item"><a href="#application" class="nav-link btn-nav">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!--
+==========================================
+今日(きょう)の問(と)い / Today's Question
+
+Q：CodePenにimagesフォルダがないのに、なぜ画像(がぞう)が見(み)えますか？
+   Why can we see the image without an images folder in CodePen?
+
+A：ここに答(こた)えを書(か)きます。
+   Write your answer here:
+
+
+==========================================
+-->
+
+<!-- 背景(はいけい)画像(がぞう)とパララックス / Background image and parallax -->
+<section class="section-common section1">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+        <h1>ITエンジニアを目指す留学生のポートフォリオ</h1>
+        <p>専門学校デジタルアーツ東京でITを学ぶファムティーキムガンです。Java、C、HTML、CSS、JavaScriptを学び、制作した作品をこのプログラミングポートフォリオで紹介しています。</p>
+        <a class="btn" href="xxxxx.html">作品とスキルの詳細を見る</a>
+    </div>
+</section>
+
+<section class="section-common section2">
+    <h2>私について</h2>
+    <p>ベトナム出身のIT学生です。日本で働く外国人ITエンジニアを目指し、プログラミングの基礎やシステム開発を学んでいます。相手の話をよく聞き、周りと協力しながら、任されたことに責任を持って取り組みます。</p>
+</section>
+
+<section class="section-common section3">
+    <div class="head-line">
+        <h2>IT学生として制作したプログラミング作品</h2>
+        <p>授業やチーム制作で取り組んだ作品です。使用した技術と担当した内容を紹介します。</p>
+    </div>
+
+    <!-- 画像(がぞう)にマウスをのせる、またはタップします / Hover or tap the images -->
+    <div class="card-container">
+        <div class="card" tabindex="0">
+            <div class="card-image-frame"><img class="card-image" src="https://picsum.photos/seed/lp-card-one/800/600" alt="カード1のイメージ画像" loading="lazy"></div>
+            <h2>学生管理システム</h2>
+            <p>Java、JDBC、MySQLを使用したWebシステムです。設計・コーディング・テストを担当し、データベースとの連携を学びました。</p>
+        </div>
+        <div class="card" tabindex="0">
+            <div class="card-image-frame"><img class="card-image" src="https://picsum.photos/seed/lp-card-two/800/600" alt="カード2のイメージ画像" loading="lazy"></div>
+            <h2>Javaクイズアプリ</h2>
+            <p>Java Swingを使ったクイズアプリです。問題と選択肢の表示、正誤判定、スコア表示を実装しました。</p>
+        </div>
+        <div class="card" tabindex="0">
+            <div class="card-image-frame"><img class="card-image" src="https://picsum.photos/seed/lp-card-three/800/600" alt="カード3のイメージ画像" loading="lazy"></div>
+            <h2>ミニタスク管理システム</h2>
+            <p>C言語を使い、クラスメートとチームで制作しました。メンバーと相談して役割を分担し、協力して開発を進めました。</p>
+        </div>
+    </div>
+</section>
+
+<section class="section-common section4" id="features">
+    <div class="head-line">
+        <h2>私の強み</h2>
+        <p>学習やチーム制作で大切にしている3つの姿勢を紹介します。</p>
+    </div>
+
+    <ul class="list-container">
+        <li class="list-item">
+            <span class="list-num">01</span>
+            <div class="list-content">
+                <h3>責任感</h3>
+                <p>任されたことは最後まで責任を持って取り組みます。分からないことは確認し、丁寧に作業を進めることを心がけています。</p>
+            </div>
+        </li>
+        <li class="list-item">
+            <span class="list-num">02</span>
+            <div class="list-content">
+                <h3>学び続ける姿勢</h3>
+                <p>授業で学ぶ基礎を大切にしながら、AIなどの新しい技術にも関心を持っています。分からないことを調べ、理解を深めるようにしています。</p>
+            </div>
+        </li>
+        <li class="list-item">
+            <span class="list-num">03</span>
+            <div class="list-content">
+                <h3>協力する力</h3>
+                <p>学校生活やアルバイトを通して、相手の話をよく聞くことの大切さを学びました。チーム制作でも相談や確認を大切にしています。</p>
+            </div>
+        </li>
+    </ul>
+</section>
+
+<section class="section-common section5" id="specifications">
+    <div class="head-line">
+        <h2>学習スキル</h2>
+        <p>現在学んでいる技術と、作品制作での活用経験をまとめました。</p>
+    </div>
+
+    <div class="table-responsive">
+        <table class="custom-table">
+            <thead>
+                <tr>
+                    <th>分野</th>
+                    <th>学習技術</th>
+                    <th>学習内容</th>
+                    <th>制作経験</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>プログラミング</th>
+                    <td>Java・C</td>
+                    <td>Swing・JDBC・基礎文法</td>
+                    <td>学生管理・クイズ・タスク管理</td>
+                </tr>
+                <tr>
+                    <th>Web制作</th>
+                    <td>HTML・CSS</td>
+                    <td><strong>JavaScript</strong></td>
+                    <td>自己紹介サイト・BMI計算</td>
+                </tr>
+                <tr>
+                    <th>データベース</th>
+                    <td>MySQL</td>
+                    <td>SELECT・JOIN</td>
+                    <td>学生管理システム</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+<!-- 画像(がぞう)と文字(もじ)の回(まわ)り込(こ)み / Image and text wrapping -->
+<section class="section-common archive-section">
+    <div class="archive-container">
+        
+        <div class="wrap-item">
+            <!-- 相対(そうたい)パス：同(おな)じサイトのimagesフォルダ / Relative path: images folder in this site -->
+            <img class="wrap-image" src="https://picsum.photos/seed/lp-article-one/800/600" alt="記事1のイメージ画像" loading="lazy">
+            <h2 class="wrap-title">Javaとデータベース</h2>
+            <p class="wrap-text">JavaとMySQLを使ったシステム開発を学んでいます。学生管理システムでは、JDBCによるデータベースとの連携に取り組みました。</p>
+        </div>
+
+        <div class="wrap-item">
+            <img class="wrap-image" src="https://picsum.photos/seed/lp-article-two/800/600" alt="記事2のイメージ画像" loading="lazy">
+            <h2 class="wrap-title">Webページ制作</h2>
+            <p class="wrap-text">HTML、CSS、JavaScriptを使い、自己紹介サイトやBMI計算ページを制作しました。情報の見やすさや操作の分かりやすさを意識しています。</p>
+        </div>
+
+        <div class="wrap-item">
+            <img class="wrap-image" src="https://picsum.photos/seed/lp-article-three/800/600" alt="記事3のイメージ画像" loading="lazy">
+            <h2 class="wrap-title">C言語の基礎とチーム制作</h2>
+            <p class="wrap-text">配列、繰り返し処理、構造体などを学びました。ミニタスク管理システムの制作では、メンバーと相談しながら開発を進めました。</p>
+        </div>
+
+        <div class="wrap-item">
+            <img class="wrap-image" src="https://picsum.photos/seed/lp-article-four/800/600" alt="記事4のイメージ画像" loading="lazy">
+            <h2 class="wrap-title">これからの目標</h2>
+            <p class="wrap-text">日本でITエンジニアとして働き、技術と日本語の両方を学び続けたいと考えています。経験を積み、将来は後輩を支えられるエンジニアを目指します。</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="section-common section6" id="faq">
+    <div class="head-line">
+        <h2>私についてのQ&A</h2>
+        <p>ITエンジニアを目指す理由や学習について紹介します。質問をクリックすると回答が開きます。</p>
+    </div>
+
+    <div class="qa-container">
+        <!-- 質問(しつもん)1 -->
+        <details class="qa-item" > <!-- 最初(さいしょ)から開(ひら)く場合(ばあい)は「open」をつけます -->
+            <summary class="qa-question">
+                <span class="qa-icon-q">Q</span>
+                <span class="qa-text">なぜITエンジニアを目指していますか？</span>
+                <span class="qa-arrow"></span>
+            </summary>
+            <div class="qa-answer">
+                <span class="qa-icon-a">A</span>
+                <p class="qa-answer-text">AIをはじめ、新しい技術が生まれ続ける分野に魅力を感じています。学んだことを作品に活かし、成長を続けられるITエンジニアを目指しています。</p>
+            </div>
+        </details>
+
+        <!-- 質問(しつもん)2 -->
+        <details class="qa-item">
+            <summary class="qa-question">
+                <span class="qa-icon-q">Q</span>
+                <span class="qa-text">どのような技術を学んでいますか？</span>
+                <span class="qa-arrow"></span>
+            </summary>
+            <div class="qa-answer">
+                <span class="qa-icon-a">A</span>
+                <p class="qa-answer-text">Java、C、HTML、CSS、JavaScript、MySQLなどを学んでいます。授業ではプログラミングの基礎に加え、Web制作やシステム開発に取り組んでいます。</p>
+            </div>
+        </details>
+
+        <!-- 質問(しつもん)3 -->
+        <details class="qa-item">
+            <summary class="qa-question">
+                <span class="qa-icon-q">Q</span>
+                <span class="qa-text">将来、どのようなエンジニアになりたいですか？</span>
+                <span class="qa-arrow"></span>
+            </summary>
+            <div class="qa-answer">
+                <span class="qa-icon-a">A</span>
+                <p class="qa-answer-text">技術力を高めるとともに、報告・連絡・相談を大切にしたいと考えています。周りと協力し、責任を持って仕事に取り組むエンジニアを目指します。</p>
+            </div>
+        </details>
+    </div>
+</section>
+
+<section class="section-common section7" id="application">
+    <div class="head-line">
+        <h2>お問い合わせ</h2>
+        <p>ポートフォリオをご覧いただき、ありがとうございます。作品や学習内容にご関心をお持ちいただけましたら、こちらのフォームからご連絡ください。</p>
+    </div>
+
+    <!--
+      Googleフォーム埋(う)め込(こ)み欄(らん) / Google Forms embed area
+      Googleフォームの「送信」→「<> 埋(う)め込(こ)み」からiframeコードをコピーし、下(した)のiframeと入(い)れ替(か)えます。
+      Copy the iframe code from Google Forms and replace the sample iframe below.
+      公開前(こうかいまえ)に、回答(かいとう)できる設定(せってい)になっているか確認(かくにん)します。
+      Before publishing, check that respondents can access the form.
+    -->
+    <div class="form-container google-form-container">
+        <iframe
+            src="https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform?embedded=true"
+            title="Googleフォーム：お問い合わせ"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+            フォームを表示できない場合は、<a href="https://docs.google.com/forms/">Googleフォーム</a>を開いてください。
+        </iframe>
+    </div>
+</section>
+
+<!-- フッター / Footer -->
+<footer class="main-footer">
+    <div class="footer-inner">
+        <div class="footer-top">
+            <a href="#" class="footer-logo"><span>KIM NGAN</span>Portfolio</a>
+            <ul class="footer-links">
+                <li><a href="#">プライバシーポリシー</a></li>
+                <li><a href="#">特定商取引法に基づく表記</a></li>
+                <li><a href="#">運営会社</a></li>
+            </ul>
+        </div>
+        
+        <div class="footer-bottom">
+            <p class="copyright">&copy; 2026 KIM NGAN. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+    <script src="./script.js"></script>
+    
+  </body>
+  
+</html>
